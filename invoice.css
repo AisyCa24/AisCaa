@@ -1,0 +1,42 @@
+
+           /* CSS Invoice */
+   .main-invoice {
+     width: 650px;
+     padding: 20px;
+     box-sizing: border-box;
+     float: left;
+     font-size: 14px;
+}
+
+   .main-invoice h2{
+     font-size: 20px;
+     font-weight: bold;
+   }
+
+   .main-invoce h3{
+     font-size: 16px;
+     font-weight: bold;
+     font-style: italic;
+   }
+
+/*Style untuk tombol cetak invoice */
+.main-invoice button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.main-invoice button:hover {
+    background-color: #cf7878;
+    color: #333;
+}
+
+.datapem td{
+    border: 0px solid #fff;
+    color: black;
+    background-color: white;
+    line-height: 17px;
+}
+

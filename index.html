@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>toko ais</title>
+    <script src="halo.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="menuKiri">
+                <ul>
+                    <li><a href="#">Tentang Kami</a></li>
+                    <li><a href="#">Mitra Kami</a></li>
+                    <li><a href="#">Mulai Berjualan</a></li>
+                    <li><a href="#">Promo</a></li>
+                    <li><a href="#">Kontak</a></li>
+                </ul>
+            </div>
+            <div class="judulKanan">
+                <h1 class="judul">Hijab ais.cya</h1>
+            </div>
+        </div>
+        <div class="hero"><img src=""></div>
+        <div class="content cf">
+            <div class="main">
+                <h2>Daftar Produk</h2>
+
+                <section class="product" data-kategori="Pasmina">
+                    <a href="product1.html"><img src="produk 1.jpg" alt="Produk 1"></a>
+                    <h3>Pasmina Kaos Terbaru</h3>
+                    <p>detail produk</p>
+                    <p class="price">Harga: Rp. 25.000</p>
+                    <button class="tombol-beli"
+                    onclick="tampilkanDetailProduk('Pashmina Kaos Terbaru','Rp. 25.000','Pashmina Kaos Jersey Premium Simple tidak perlu setrika karena anti kusut','produk 1.jpg')">Detail Produk</button>
+                <br>
+               <button class="tombol-keranjang"
+               onclick="tambahkanProdukKeKeranjang('Pasmina Kaos', 25000)">Tambahkan ke Keranjang</button><br/>
+                </section>
+                <section class="product" data-kategori="Hijab Sekolah">
+                    <a href="product2.html"><img src="produk 2.jpg" alt="Produk 2"></a>
+                    <h3>Hijab Instan Sporty</h3>
+                    <p>detail produk</p>
+                    <p class="price">Harga: Rp. 15.000</p>
+                    <button class="tombol-detail"
+                    onclick="tampilkanDetailProduk('Hijab Instan Sporty','Rp. 15.000','Cocok buat santai dan cocok juga buat olahraga Bahan : Jersey premium.','produk 2.jpg')">Detail Produk</button>
+                    <br>
+                    <button class="tombol-keranjang"
+               onclick="tambahkanProdukKeKeranjang('Hijab Instan Sporty', 15000)">Tambahkan ke Keranjang</button><br/>
+                </section>
+                <section class="product" data-kategori="Pasmina">
+                    <a href="product3.html"><img src="produk 3.jpg" alt="Produk 3"></a>
+                    <h3>Pashmina Crinkle</h3>
+                    <p>detail produk</p>
+                    <p class="price">Harga: Rp. 35.000</p>
+                    <button class="tombol-detail"
+                    onclick="tampilkanDetailProduk('Pashmina Crinkle','Rp. 35.000','Kareteristik bahan adem, tidak menerawang, lebar, mudah di bentuk, tidak perlu di setrika Good Quality','produk 3.jpg')">Detail Produk</button>
+                   <br>
+                    <button class="tombol-keranjang" 
+                    onclick="tambahkanProdukKeKeranjang('Pashmina Crinkle', 35000)">Tambahkan ke Keranjang</button><br/>
+                </section>
+                <section class="product" data-kategori="Pasmina">
+                    <a href="product4.html"><img src="produk 4.jpg" alt="Produk 4"></a>
+                    <h3>Pashmina plisket </h3>
+                    <p>detail produk</p>
+                    <p class="price">Harga: Rp. 37.000</p>
+                    <button class="tombol-detail"
+                    onclick="tampilkanDetailProduk('pashmina plisket','Rp. 37.000','Bahan Cerutty Babydoll Ukuran 175x75 / Jilbab Plisket Lidi/ Kerudung Pasmina Plisket Lidi Produk Terhits','produk 4.jpg')">Detail Produk</button>
+                   <br>
+                    <button class="tombol-keranjang" 
+                    onclick="tambahkanProdukKeKeranjang('Pashmina Plisket', 37000)">Tambahkan ke Keranjang</button><br/>
+                </section>
+                <section class="product" data-kategori="Hijab Segi Tiga">
+                    <a href="product5.html"><img src="produk 5.jpg" alt="Produk 5"></a>
+                    <h3>Hijab Paris Premium</h3>
+                    <p>detail produk</p>
+                    <p class="price">Harga: Rp. 25.000</p>
+                    <button class="tombol-detail"
+                    onclick="tampilkanDetailProduk('Hijab Paris Premium','Rp. 25.000','size 110x110 cm• Bahan Voal paris premium• karakter bahan halus, nurut, lebih tebal dari paris pada umumnya','produk 5.jpg')">Detail Produk</button>
+                   <br>
+                    <button class="tombol-keranjang" 
+                    onclick="tambahkanProdukKeKeranjang('Hijab Paris Premium', 25000)">Tambahkan ke Keranjang</button><br/>
+                </section>
+                <section class="product" data-kategori="Hijab Segi Tiga">
+                    <a href="product6.html"><img src="produk 6.jpg" alt="Produk 6"></a>
+                    <h3>Kerudung bella square</h3>
+                    <p>detail produk</p>
+                    <p class="price">Harga: Rp. 20.000</p>
+                    <button class="tombol-detail"
+                    onclick="tampilkanDetailProduk('Kerudung bella square','Rp. 20.000','material: polycotton hycon Bahan lembut, bentuk tegak, Pinggiran udah dijahit neci yaa.','produk 6.jpg')">Detail Produk</button>
+                   <br>
+                    <button class="tombol-keranjang" 
+                    onclick="tambahkanProdukKeKeranjang('Kerudung bella square', 20000)">Tambahkan ke Keranjang</button><br/>
+                </section>
+                <section class="product" data-kategori="Hijab Sekolah">
+                    <a href="product7.html"><img src="produk 7.jpg" alt="Produk 7"></a>
+                    <h3>Kerudung Sekolah</h3>
+                    <p>detail produk</p>
+                    <p class="price">Harga: Rp. 30.000</p>
+                    <button class="tombol-detail"
+                    onclick="tampilkanDetailProduk('Kerudung Sekolah ','Rp. 30.000','Hijab instan dengan bahan yang adem, tidak terawang dan menyerap keringat sehingga nyaman digunakan seharian saat sekolah ataupun daily. Dilengkapi pita dibagian belakang yang dapat ditarik dan tersedia berbagai ukuran.','produk 7.jpg')">Detail Produk</button>
+                   <br>
+                    <button class="tombol-keranjang" 
+                    onclick="tambahkanProdukKeKeranjang('Kerudung Sekolah', 30000)">Tambahkan ke Keranjang</button><br/>
+                </section>
+                <section class="product" data-kategori="Hijab Sekolah">
+                    <a href="product8.html"><img src="produk 8.jpg" alt="Produk 8"></a>
+                    <h3>Hijab Sekolah Anak</h3>
+                    <p>detail produk</p>
+                    <p class="price">Harga: Rp. 25.000</p>
+                    <button class="tombol-detail"
+                    onclick="tampilkanDetailProduk('Hijab Sekolah Anak','Rp. 25.000','ukuran 90cmX90cm finishing / pinggirannya lasercut ya jd cantik bgt','produk 8.jpg')">Detail Produk</button>
+                   <br>
+                    <button class="tombol-keranjang" 
+                    onclick="tambahkanProdukKeKeranjang('Hijab Sekolah Anak', 25000)">Tambahkan ke Keranjang</button><br/>
+                </section>
+   
+   <script> 
+                    function cariBarang(){
+                        const inputPencarian = 
+                    document.getElementById('cariBarang');
+                    const kataKunci = inputPencarian.value.toLowerCase();
+                    const produk = document.querySelectorAll('.product');
+
+                    for (const produkItem of produk){
+                        const namaProduk =
+                    produkItem.querySelector('h3').textContent.toLocaleLowerCase();
+                        const deskripsiProduk = 
+                    produkItem.querySelector('p').textContent.toLocaleLowerCase();
+                    produkItem.getAttribute('data-kategori');
+                    if (namaProduk.includes(kataKunci) ||
+                        deskripsiProduk.includes(kataKunci)) {
+                        produkItem.style.display = 'block';
+                    } else {
+                        produkItem.style.display = 'none';
+                    }
+                    }
+                    }
+                </script>
+            </div>
+            <div class="sidebar">
+                <h3>Kategori</h3>
+                <div class="kategori-pilihan">
+                <!--Tombol filter kategori dan input pencarian seperti sebelumnya-->
+                </div>
+                <br></br>
+                <input type="text" id="cariBarang" placeholder="Cari Barang ...." onkeyup="cariBarang()">
+                    <button onclick="filterKategori('Pasmina')">Pasmina</button><br/>
+                    <button onclick="filterKategori('Hijab Segi Tiga')">Hijab Segi Tiga</button>
+                    <button onclick="filterKategori('Hijab Sekolah')">Hijab Sekolah</button>
+                    <br></br>
+
+                    <form id="formulir-index2" action="checkout.html" method="post">
+                    <div class="keranjang">
+                    <h3>Keranjang Belanja</h3>
+                    <ul id="daftar-keranjang">
+                    </ul>
+                    <p>Total Belanja: <span id="total-belanja">Rp. 0</span></p>
+                    <a href="checkout.html"><button id="checkout" onclick="checkout()">Checkout</button>
+                    </div>
+                </div>
+                 
+            </div>
+            <div class="footer">
+                <h2> <p class="copyright">Toko Hijab.Ais-cya. Copyright 2024.</p></h2>
+            </div>
+         </div>  
+    </div>
+    </form>
+</body>
+</html>
